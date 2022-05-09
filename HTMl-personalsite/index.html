@@ -11,14 +11,14 @@
 <body>
   <section class="sec1">
   <!-- usar flex - flexbox -->
-    <div class="container">
+    <div class="navi">
       <nav>
         <a href="" id="logo"><img src="/img/mylogo.jpg" alt="" "></a>
       
         <ul class="nav-ul">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Notes</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#note">Notes</a></li>
         </ul>
       </nav>
     </div>
@@ -26,13 +26,14 @@
     <div class="container">
       <div class="title">
         <div class="nube1">
-          <img class="nube" src="/CSS - My Site Images/cloud.png" alt="">
+          <img class="nube" src="/img/cloud.png" alt="">
         </div>
-        <h1>Watch this <br>...It's <span>Jhuli</span></h1>
+        <h1>I'm Jhuli</h1>
+        <h2>a programmer</h2>
         <div class="nube2">
-          <img class="nube" src="/CSS - My Site Images/cloud.png" alt="">
+          <img class="nube" src="/img/cloud.png" alt="">
         </div>
-        <img class="fondo" src="/CSS - My Site Images/mountain.png" alt="">
+        <img class="fondo" src="/img/mountain.png" alt="">
       </div>
     </div>
   </section>
@@ -43,35 +44,45 @@
       <h2>Hello.</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eveniet voluptas illo ut dignissimos laborum, inventore nisi nesciunt.</p>
     </div>
-    <div class="flex rig">
-      <div class="space comp"><img class="img-logo1 a" src="/CSS - My Site Images/computer.png" alt=""></div>
+    <hr>
+    <div id="about" class="flex rig">
+      <div  class="space comp"><img class="img-logo1 a" src="/img/ux.png" alt=""></div>
       <div class="right">
         <h2>About...</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eveniet voluptas illo ut dignissimos laborum, inventore nisi nesciunt, at nostrum tempora omnis perferendis labore aspernatur iusto quidem asperiores alias? Cupiditate a eveniet ad in optio nobis similique </p>
       </div>
     </div>
-    <div class="flex lef">
-      <div class="space work"><img class="img-logo1 b" src="/img/portfolio.png" alt=""></div>
+    <div id="work" class="flex lef">
+      <div  class="space work"><img class="img-logo1 b" src="/img/business.png" alt=""></div>
       <div class="left">
         <h2>Works...</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eveniet voluptas illo ut dignissimos laborum, inventore nisi nesciunt, at nostrum tempora omnis perferendis labore aspernatur iusto quidem asperiores alias? Cupiditate a .</p>
       </div>
     </div>
-    <div class="flex rig">
-      <div class="space note"><img class="img-logo1 c" src="/img/notes.png" alt=""></div>
+    <div id="note" class="flex rig">
+      <div  class="space note"><img class="img-logo1 c" src="/img/seo.png" alt=""></div>
       <div class="right">
         <h2>Notes...</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eveniet voluptas illo ut dignissimos laborum, inventore nisi nesciunt, at nostrum tempora omnis perferendis labore aspernatur iusto quidem asperiores alias? Cupiditate a eveniet ad in optio nobis similique illum .</p>
       </div>
     </div>
+    <hr>
   </section>
+  
+  <section class="contact">
+   <h2>Contact Me</h2> 
+   <button class="btn">
+    contact
+  </button>
+  </section>
+  
   <!------------- seccion 3------------------>
   <section class="container sec3">
-    <div class="bottom-container">
-      <h2>Contact Me</h2>
+    <div class="bottom-container">      
       <a class="footer-link" href="https://www.linkedin.com">Linkedin</a>
       <a class="footer-link" href="https://twitter.com">Twitter</a>
       <a class="footer-link" href="https://www.appbrewery.co">Webside</a>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolor provident id nam corrupti atque quia labore.</p>
     </div>
   </section>
 

@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Kalam', cursive;
   margin: 0;
@@ -7,13 +10,9 @@ body {
   text-align: center;
 }
 .sec1 {
-  background: linear-gradient(#cef4ff, #e2fcfd);
+  background: #eaf6f6;
 }
-.container {
-    margin: auto;
-    width: 90%;
-    
-}
+
 
 /* -------header-------  */
 #logo {
@@ -28,9 +27,8 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 1% 10%;
+  padding: 1% 10% 0 10%;
 }
-
 
 .nav-ul {
   display: flex;
@@ -43,10 +41,13 @@ nav {
 .nav-ul li a {
   color: #66BFBF;
   font-size: 2vw;
-  margin: 15px 0px 1px 50px;
+  margin: 15px 0px 1px 40px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   
+}
+li a:hover {
+  color: #71918a;
 }
 
 /* -------seccion_1----------- */
@@ -60,16 +61,22 @@ nav {
   line-height: 1;
   
 }
+.title h2 {
+  margin-bottom: 0%;
+}
 img.nube{
   width: 20%;
 }
 div.nube1 {
+  margin-top: 15px;
   display: flex;
   justify-content: flex-end;
 }
 div.nube2 {
   display: flex;
   justify-content: flex-start;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
 }
 
 h1{
@@ -78,7 +85,8 @@ h1{
 }
 
 .fondo {
-  width: 40vw;
+  width: 35vw;
+  margin: 0 auto 0 auto;
 }
 
 /* ---------seccion_2--------- */
@@ -88,8 +96,6 @@ h2 {
 .sec2, .sec3 {
   font-family: 'Montserrat', sans-serif;
   margin: auto;
-  width: 90%;
-  
 }
 
 .img-logo{
@@ -97,14 +103,17 @@ h2 {
   width: 17vw;
   margin: 0 auto -5%;
 }
-
-.space {
-  margin: 1% 40%;
-  padding: 2% 0;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 50%;
-  background-color: rgb(226, 125, 94);
+.hello p {
+  width: 70%;
+  margin: auto auto 100px auto;
 }
+.flex {
+  margin: 15% auto 15% auto;
+  width: 55%;
+  text-align: left;
+  line-height: 19px;
+}
+
 
 .img-logo1 {
   width: 70%;
@@ -112,38 +121,76 @@ h2 {
 .a {
   border-radius: 20%;
 }
+.comp,.note {
+  width: 25%;
+  float: left;
+}
 .work {
-  background-color: rgb(193, 195, 248);
-}
-.note {
-  background-color: rgb(255, 177, 211);
-}
-.sec2 div {
-  padding: 5% auto 2% auto;
-}
-
-section .left, .right {
-  line-height: 19px;
-  text-align: left;
-  width: 60%;
+  width: 25%;
+  float: right;
+  text-align: right;
 }
 p {
   font-size: 0.9rem;
+  color: #2a2c2c;
 }
-.flex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+
+
+/* ----------contact------------- */
+.contact{
+  width: 50%;
+  margin: auto;
+}
+.btn {
+  border-style: none;
+  border-radius: 26px;
+  font-family: Georgia;
+  color: #596d68;
+  font-size: 15px;
+  background: #6bd6cd;
+  padding: 7px 16px 8px 16px;
+  text-decoration: none;
+  margin-bottom: 6%;
+}
+
+.btn:hover {
+  background: #55a396;
+  color: antiquewhite;
+  text-decoration: none;
 }
 /* ----------sec3------------- */
 .sec3 {
-  margin: 5% auto 2% auto;
+  padding: 1%;
+  background: #66bfbf;
 }
-
+.sec3 h2 {
+  margin: 4% auto 2% auto;
+  color: #8dbcba;
+}
 a {
   text-decoration: none;
-  color: #11999E;
+  color: #cee2df;
   font-size: 1rem;
   display: flexbox;
   margin: auto 15px auto 15px;
+}
+.sec3 a:hover {
+  color: rgb(157, 152, 152);
+}
+.sec3 p {
+font-size: 10px;
+color: rgb(216, 215, 215);
+}
+hr {
+  margin: 10px auto 5px auto;
+  border: none;
+  width: 10%;
+  border-bottom: 8px dotted rgb(121, 121, 121);
+  margin: auto;
+ }
+ .contact {
+   margin: 50px auto 30px auto;
+ }
+ .bottom-container {
+  margin-top: 15px;
 }
